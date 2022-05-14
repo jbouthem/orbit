@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
+# gem 'rails',                        '6.1.4.6'
 gem 'rails',                        '~> 6.1.5', '>= 6.1.5.1'
 
 gem 'aws-sdk-s3',                   '1.46.0', require: false
@@ -13,7 +14,7 @@ gem 'faker',                        '2.16.0'
 gem 'will_paginate',                '3.3.0'
 gem 'bootstrap-will_paginate',      '1.0.0'
 gem 'bootstrap-sass',               '3.4.1'
-gem 'puma',                         '3.12.1'
+gem 'puma',                         '4.3.11'
 gem 'sass-rails',                   '6.0.0'
 gem 'webpacker',                    '~> 5.0'
 gem 'turbolinks',                   '5.2.0'
