@@ -6,7 +6,10 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 gem 'rails',                        '~> 6.1.5', '>= 6.1.5.1'
 
 gem 'aws-sdk-s3',                   '1.46.0', require: false
-gem 'image_processing',             '1.9.3'
+# gem 'image_processing',             '1.9.3'
+
+gem "image_processing",             ">= 1.12.2"
+
 gem 'mini_magick',                  '4.11.0'
 gem 'active_storage_validations',   '0.8.2'
 gem 'bcrypt',                       '3.1.13'
@@ -14,7 +17,7 @@ gem 'faker',                        '2.16.0'
 gem 'will_paginate',                '3.3.0'
 gem 'bootstrap-will_paginate',      '1.0.0'
 gem 'bootstrap-sass',               '3.4.1'
-gem 'puma',                         '4.3.11'
+gem 'puma',                         '5.6.4'
 gem 'sass-rails',                   '6.0.0'
 gem 'webpacker',                    '~> 5.0'
 gem 'turbolinks',                   '5.2.0'
