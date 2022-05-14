@@ -9,5 +9,14 @@
             </h1>
         </section>
     </aside>
+    <div class="col-md-8">
+        <% if @user.snapshots.any? %>
+            <h3>Snapshots <%= @user.snapshots.count %>
+            <ol class="snapshots">
+                <%= render @snapshots %>
+            </ol>
+            <%= will_paginate @snapshots %>
+        <% end %>
+    </div>
 </div>
 
