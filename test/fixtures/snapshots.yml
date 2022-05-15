@@ -40,4 +40,4 @@ project012:
 project013:
   content: "New relay created to handle enquiry form"
   created_at: <%= 18.minutes.ago %>
-  user: john
+  user: jean
